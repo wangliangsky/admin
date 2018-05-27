@@ -1,7 +1,7 @@
 import allure, pytest
 class Test_allure:
     def setup(self):
-         pass
+         print("132")
     def teardown(self):
          pass
     @pytest.mark.parametrize("a",[1,2,3])
